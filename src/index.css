@@ -18,6 +18,9 @@ body{
 
 #root{
     width: 100svw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .container{
@@ -30,7 +33,7 @@ body{
     justify-content: center;
     gap: 1.5em;
     flex-direction: column;
-    width: 100%;
+    width: max-content;
     max-width: 100svw;
 }
 
@@ -160,5 +163,6 @@ li span{
     .container{
         padding: .8em;
         border-radius: 0;
+        width: 100svw;
     }
 }
